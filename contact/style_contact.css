@@ -1,0 +1,34 @@
+.contact_2 {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.name_cafe_new {
+    border-left:  3px solid #93130A;
+    padding-left: 25px;
+    font-family: "My_main_1";
+    font-size: 35px;
+    color: #93130A;
+}
+.addres_cafe{
+    padding-left: 25px;
+    font-family: "My_main_1";
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+}
+.work_time_cafe{
+    padding-left: 25px;
+    font-family: "My_main_1";
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+}
+.map{
+    padding: 25px;
+    padding-right: 100px;
+}
+#map_34347494{
+    
+    width: 100%;
+    height: 500px;
+}

@@ -1,0 +1,271 @@
+body {
+  background-color: #F2F2F2;
+}
+
+.header{
+    flex-direction: row; 
+    background-color: #93130A;
+    height: 120px;
+    margin-bottom: 10px;
+    
+  
+}
+.brd{
+    margin-top: 5px;
+    border-top: 2px solid white;
+    width: 100%;
+}
+
+.fnt {
+    font-family: "My_main_1";
+    font-size: 20px;
+    color: white;
+    width: 20%;
+    text-align: center;
+    padding-top: 35px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.head_link {
+    text-decoration: none;
+    color: white;
+  }
+.head_link:hover {
+    color : gray;
+  }
+
+.photo{
+  text-align: right;
+}
+
+.social {
+    text-align: left;
+}
+.logo_img{
+    width: 190px;
+    filter: invert(1);
+    padding-top: 5px;
+}
+
+.hew {
+  width: 100%;
+  height: 500px;
+  
+}
+.container-fluid {
+  padding: 0;
+}
+.carousel-control-prev , .carousel-control-next{
+ height: 500px;
+ width: 32px;
+ 
+ 
+ opacity: 1;
+}
+.carousel-control-prev-icon  {
+  background-color: #93130A;
+ 
+}
+.carousel-control-next-icon {
+  background-color: #93130A;
+
+}
+
+.carousel-indicators {
+ position: relative;
+ margin: 0;
+ 
+}
+#carouselExampleIndicators {
+  background-color: #93130A;
+  margin: 0;
+}
+
+.img_1 {
+  width: 100%;
+  height: 500px;
+  
+  
+}
+.line_1{
+  margin-top: 50px;
+  
+}
+.line_1_1 {
+  
+  border-top: #93130A solid 1px;
+  width: 90%;
+  margin-left: 5%; 
+}
+.about_cafe {
+  margin-top: 50px; 
+}
+.line_2 {
+  border-left: #93130A 5px solid;
+  width: 50px;
+}
+.name_cafe_1 {
+  font-size: 35px;
+  color: #93130A;
+  font-family: "My_main_1";
+}
+.img_name_cafe {
+  width: 600px;
+  height: auto;
+  border-radius: 150px;
+
+}
+
+.name_cafe_2 {
+  margin-top: 50px;
+  flex-direction: row;
+}
+
+.about_name_cafe_1 {
+  padding-left: 10px;
+  
+}
+.about_name_cafe {
+ 
+  font-family: "My_main_1";
+  color: #93130A;
+  font-size: 25px;
+}
+
+.script-block_main {
+height: 550px;
+background-color: #93130A;
+margin-top: 50px;
+} 
+
+.script-block_first_1 {
+  font-family: "My_main_1";
+  font-size: 40px;
+  color: white;
+}
+.script-block_first {
+  padding-left: 85px;
+  padding-top: 15px;
+}
+.script-block_third {
+  flex-direction: row;
+}
+
+.script-block_second_1 , .script-block_second_1_1 , .script-block_second_1_2  {
+  background-color: #93130A;
+}
+.script-block_second_1 {
+  font-family: "My_main_1";
+  font-size: 15px;
+  color: gray;
+}
+
+
+
+.script-block_second_1_2{
+  padding: 10px;
+  border: none;
+  color: gray;
+
+}
+
+.script-block_second_1_2 :focus {
+  color: white;
+  border-bottom:  2px solid white;
+  padding-bottom: 12px;
+}
+.script-block_second_1_2 :hover {
+  color: white;
+  border-bottom:  2px solid white;
+  padding-bottom: 12px;
+}
+
+
+.script-block_second_1_1{
+  padding-left: 25px;
+}
+.script-block_second{
+  margin-top: 25px;
+  padding-left: 50px;
+  border-bottom:  2px solid gray;
+  width: 90%;
+  margin-left: 5%; 
+
+
+}
+.script-block_third{
+ margin-top: 50px;
+ padding-left: 50px;
+}
+#script-block_third_1 {
+ border-radius: 50%;
+ }
+
+ #script-block_third_2_1 {
+  font-family: "My_main_1";
+  font-size: 20px;
+  color: white;
+ }
+ #script-block_third_2_2, #script-block_third_2_3, #script-block_third_2_4 {
+  font-family: "My_main_2";
+  font-size: 15px;
+  color: white;
+ }
+ .show_menu {
+   text-decoration: none;
+  font-family: "My_main_2";
+  font-size: 25px;
+  color: #93130A;
+  
+ }
+ .show_menu_1 :hover {
+  text-decoration: none;
+ color: gray;
+ 
+}
+
+ .show_menu_1 {
+  border-radius: 3px;
+ }
+
+ .block_blin_main {
+   margin-top: 50px;
+ }
+
+ .main_about_blin {
+  font-family: "My_main_2";
+  font-size: 25px;
+  color: #93130A;
+  padding-left: 50px;
+ }
+
+ .about_blin {
+  font-family: "My_main_2";
+  color: #93130A;
+ }
+ .block_blin_second {
+  padding-left: 25px;
+}
+ .blin_btn{
+  padding-left: 50px;
+ }
+ .footer{
+   margin-top: 50px;
+   background-color: #93130A;
+   height: 250px;
+ }
+ .foot_text_full{
+   text-align: center;
+   padding-top: 80px;
+   
+ }
+ .footer_addres_txt {  
+   font-family: "My_main_2";
+   font-size: 25px;
+   color: white;
+ }
+ .footer_logo_img {
+   width: 70%;
+   filter: invert(1);
+ }

@@ -1,0 +1,354 @@
+
+@media (max-width: 5000px) {
+   
+    .footer_logo_img{
+    padding: 35px;
+    width: 70%;
+    }
+    .about_blin{
+        font-size: 45px;
+    }
+    .about_blin{
+        font-size: 25px;
+    }
+    .blin_btn {
+        padding-top: 50px;
+    }
+    .show_menu {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width: 2000px) {
+   
+    .footer_logo_img{
+    padding: 35px;
+    width: 70%;
+    }
+    .about_blin{
+        font-size: 45px;
+    }
+    .about_blin{
+        font-size: 25px;
+    }
+    .blin_btn {
+        padding-top: 50px;
+    }
+    .show_menu {
+        font-size: 35px;
+    }
+}
+
+
+
+
+@media (max-width: 1400px) {
+    
+    .about_name_cafe_1 {
+    padding-left: 60px;
+    }
+    
+    .img_name_cafe {
+        margin-bottom: 80px;
+    }
+    .blin_btn {
+    margin-top: 50px;
+    }
+    .footer_logo_img{
+    padding: 45px;
+    width: 70%;
+    }
+    .about_blin{
+        font-size: 25px;
+    }
+
+    
+}
+
+
+@media (max-width: 1200px) {
+
+    .main_about_blin {
+        padding: 0;
+    }
+    .about_blin{
+        padding: 0;
+        font-size: 20px;
+    }
+    .block_blin_second{
+    padding-left: 50px;}
+    
+
+    .about_name_cafe{
+        font-size: 20px;
+     }
+    .about_name_cafe_1 {
+    padding-left: 60px;
+    }
+    .img_name_cafe {
+        width: 450px;
+    }
+    .script-block_second_1_1 {
+       padding: 0;
+    }
+    .script-block_third_2{
+        padding-left: 25px;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+
+
+
+    .block_blin_second {
+        padding-left: 60px;
+        padding-right: 10px;
+        width: 100%;
+      }
+
+    .footer_logo_img{
+        padding: 25px;
+        width: 100%;
+        }
+    .foot_text_full{
+        padding-top: 50px;
+    }
+
+    #script-block_third_2_2, #script-block_third_2_3, #script-block_third_2_4 {
+    font-size: 10px;
+     }
+    #script-block_third_1{
+    width: 200px;
+    }
+    
+    .script-block_second_1 {
+    font-size: 11px;
+     }
+    
+    .script-block_second_1_2 {
+    padding: 9.5px;
+    }
+    
+    .about_name_cafe{
+        font-size: 15px;
+     }
+
+     .img_name_cafe {
+    width: 350px;
+     border-radius: 100px;
+    }
+
+    .fnt{
+    font-size: 15px;
+    }
+
+    .logo_img{
+    width: 150px;
+    filter: invert(1);
+    padding-top: 5px;
+    }
+
+    .img_1 ,.hew {
+    height: 400px;
+    }
+    .carousel-control-next , .carousel-control-prev {
+    height: 400px;
+    }
+    .about_blin{
+        font-size: 15px;
+    }
+    .block_blin_main{
+       display: flex;
+       justify-content: center; 
+    }
+    .block_blin_first {
+        display: none;
+    }
+}
+
+@media  (min-width: 575px) and (max-width: 768px) {
+    
+    #script-block_third_2_2, #script-block_third_2_3, #script-block_third_2_4 {
+    font-size: 9px;
+    padding-left: 20px;
+     } 
+     .footer {
+    height: 200px; 
+    }
+}
+
+
+@media  (min-width: 320px) and (max-width: 768px) {
+   
+    
+   
+   
+    .about_blin{
+        font-size: 15px;
+    }
+
+    #script-block_third_2_2, #script-block_third_2_3, #script-block_third_2_4 {
+    font-size: 9px;
+    }
+
+    .script-block_second_1_2 {
+    padding: 8.5px;
+    }
+
+    .script-block_second{
+    padding-left: 25px;
+    }
+    
+    .script-block_second_1 {
+    font-size: 9px;
+    }
+    
+    .about_name_cafe{
+    font-size: 10px;
+    line-height: .5;
+    }
+     
+    .img_name_cafe {
+    width: 290px;
+    border-radius: 100px;
+    }
+    
+    .head_link {
+    text-align: center;
+    }
+
+    .social {
+    padding-right: 10px;
+    }
+    
+    .fnt{
+    font-size: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    }
+
+    .logo_img {
+    width: 100px;
+    }
+
+    .header{
+    height: 80px;
+    }
+
+    .container {
+    padding: 0;
+    }
+
+    .img_1 ,.hew {
+    height: 280px;
+    }
+
+    .carousel-control-next , .carousel-control-prev {
+    height: 280px;
+    }
+
+}
+@media (max-width: 570px){
+    .footer_logo_img{
+      margin-left: 150px;
+      width: 50%;
+      }
+    .footer_addres_txt {
+        font-size: 15px;
+        }
+    .foot_text_full{
+      padding-left: 50px; 
+      padding-top: 30px;
+      width: 150%; 
+    }
+    .footer{
+    height: 150px;
+    }
+
+}
+@media (max-width: 388px) {
+    .footer_logo_img{
+        margin-left: 80px;   
+        width: 70%;
+        }
+}
+
+    @media (max-width: 528px) {
+
+        .main_about_blin {
+        font-size: 20px;
+        }
+
+        .script-block_main{
+        display: none;
+        }
+
+        .line_none {
+            display: none;
+        }
+    }
+
+@media (max-width: 550px) {
+
+    .block_blin_first{
+    display: none;
+    }
+
+    .about_name_cafe{
+    font-size: 10px;
+    line-height: .5;
+     }
+     
+     .img_name_cafe {
+    display: none;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .show_menu{
+        font-size: 15px;   
+    }
+   
+    .line_none{
+     display: none;   
+    }
+    .about_blin{
+    font-size: 10px;
+    }
+    
+    .script-block_main {
+    display: none;
+    }
+    
+    .fnt {
+    font-size: 7px;
+    padding-right: 10px;
+    }
+
+    .logo_img {
+    width: 100px;
+    }
+    .header {height: 70px;}
+    .name_cafe_1{
+    font-size: 25px;
+    }
+}
+
+
+@media (max-width: 430px) {
+   
+    .img_1 ,.hew {
+    height: 150px;
+    }
+
+    .carousel-control-next , .carousel-control-prev {
+    height: 150px;
+    }
+}
+
+

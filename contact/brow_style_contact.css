@@ -1,0 +1,24 @@
+@media (max-width: 1400px) {
+
+    .work_time_cafe,.addres_cafe{
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 545px) {
+
+    .contact_map_main{
+        display: inline;
+        flex-direction: column;
+    }
+
+    .map {
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    width: 90%;
+    
+    }
+
+}

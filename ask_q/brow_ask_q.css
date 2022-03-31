@@ -1,0 +1,103 @@
+@media (max-width: 3000px) {
+.ask_q_cont{
+    text-align: center;
+    margin-top: 100px;
+}
+input::-webkit-input-placeholder { color: #93130A;
+    font-size: 30px;
+    color: gray;
+    font-family: "My_main_1"; }
+
+}
+
+
+@media (max-width: 992px) {
+    .ask_q_cont{
+      
+        margin-top: 50px;
+    }
+    .info_ask{
+        font-size: 25px;
+    }
+    .name_ask, .email_ask,.phone_ask,.file_ask,.massage_ask {
+        font-size: 20px;
+    }
+    .name_ask_1, .email_ask_1,.phone_ask_1,.massage_ask_1 {
+        width: 400px ;
+    }
+    .file_ask_1 {
+        padding-left: 150px;
+    }
+    .send_ask_1 {
+        padding: 0px;
+    }
+    input::-webkit-input-placeholder { color: #93130A;
+        font-size: 20px;}
+        .file_ask_1 {
+            font-size: 20px;
+        }
+       
+}
+
+@media (max-width: 768px) {
+    .info_ask{
+        font-size: 20px;
+    }
+    .info_ask_main{
+        
+        margin-bottom: 10px;
+    }
+    .name_ask, .email_ask,.phone_ask,.file_ask,.massage_ask {
+        font-size: 15px;
+    }
+    .name_ask_1, .email_ask_1,.phone_ask_1,.massage_ask_1 {
+        width: 300px ;
+    }
+    .file_ask_1 {
+        padding-left: 130px;
+    }
+    .send_ask_1 {
+        padding: 0px;
+        font-size: 20px;
+    }
+    input::-webkit-input-placeholder { color: #93130A;
+        font-size: 15px;}
+        .file_ask_1 {
+            font-size: 15px;
+        }
+       
+}
+@media (max-width: 523px) {
+    .ask_q_cont{
+      
+        margin-top: 20px;
+    }
+    .info_ask{
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .info_ask_main{
+        
+        margin-bottom: 0px;
+    }
+    .name_ask, .email_ask,.phone_ask,.file_ask,.massage_ask {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+    .name_ask_1, .email_ask_1,.phone_ask_1,.massage_ask_1 {
+        width: 300px ;
+    }
+    .file_ask_1 {
+        padding-left: 60px;
+    }
+    .send_ask_1 {
+        padding: 0px;
+        font-size: 14px;
+    }
+    input::-webkit-input-placeholder { color: #93130A;
+        font-size: 15px;}
+        .file_ask_1 {
+            font-size: 15px;
+        }
+       
+}

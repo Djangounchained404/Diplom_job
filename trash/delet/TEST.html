@@ -1,0 +1,101 @@
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>Кафе Биг-Бэн</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="style_index_fonts.css">
+    <link rel="stylesheet" href="second_list/style_second_list_main.css">
+    <link rel="stylesheet" href="second_list/style_second_list_main.css">
+    <link rel="stylesheet" href="contact/style_contact.css">
+    <script src="second_list/script_second_list_main.js"></script>
+    <script src="script_index.js"></script>
+    <link rel="stylesheet" href="photo_list/photo_list.css">
+    <link rel="stylesheet" href="ask_q/ask_q_style.css">
+    <link rel="stylesheet" href="cross_brow.css">
+
+    
+    
+
+    
+    
+</head>
+  <body>
+      <div class="container">
+        <!-- Шапка --> 
+          <div class="header col-sm-12 d-flex">
+            <div class=" brd col-sm-12 d-flex">
+               <div class="photo col-sm-1 fnt "><a class="head_link" href="photo_list.php">Фото</a></div>
+               <div class="menu col-sm-1  fnt" ><a class="head_link" href="second_list.php">Меню</a></div>
+               <div class="logo col-sm-2 "><a class="head_link" href="index.php"><img class="logo_img" src="img/big_ben.png" alt="big_ben"></a></div>
+               <div class="contact col-sm-1 fnt"><a class="head_link" href="contact_list.php">Контакты</a></div>
+               <div class="social col-sm-1 fnt"><a class="head_link" href="ask_form.php">Задать вопрос</a></div>
+            </div>
+        </div>
+
+
+
+        <div class="second_link_1 col-sm-12 d-flex ">
+            <div class="co_menu_option col-sm-2 ">
+                <div class="first_line">Меню</div>
+                <div class="other_line" ><button onclick="main_menu()" class="bt_menu_option_1  bt_bor" ><span class="menu_option" tabindex="0">Основное меню</span></button></div>
+                <div class="other_line" ><button onclick="pancakes()" class="bt_menu_option_2  bt_bor"><span class="menu_option" tabindex="0">Блины</span></button></div>
+                <div class="other_line" ><button onclick="dessert()" class="bt_menu_option_3  bt_bor"><span class="menu_option" tabindex="0">Десерты</span></button></div>
+                <div class="other_line" ><button onclick="drinks()" class="bt_menu_option_4  bt_bor"><span class="menu_option" tabindex="0">Напитки</span></button></div>
+                <div class="other_line" ><button onclick="bakery()" class="bt_menu_option_5  bt_bor"><span class="menu_option" tabindex="0">Выпечка</span></button></div>
+                <div class="other_line" ><button onclick="banquet()" class="bt_menu_option_6  bt_bor"><span class="menu_option" tabindex="0">Банкетное меню</span></button></div>
+                <div class="other_line" ><button onclick="dead_menu()" class="bt_menu_option_7  bt_bor"><span class="menu_option" tabindex="0">Поминальные обеды</span></button></div>
+                <div class="other_line" ><button onclick="dead_menu_vip()" class="bt_menu_option_8 bt_bor"><span class="menu_option" tabindex="0">Поминальные обеды VIP</span></button></div>
+            
+            </div>
+    
+            <div class="col_food_option col-sm-10">
+                <div class="options options1 "><h2 class="main_name_food" id="main_name_food_0">Основное меню</h2><br><p class="price_food" id="price_food_0">350 руб</p><br><span class="about_food"id="about_food_0">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_0">220 грамм</span></div>
+                <div class="options options2 "><h2 class="main_name_food" id="main_name_food_1">Основное меню</h2><br><p class="price_food" id="price_food_1">350 руб</p><br><span class="about_food"id="about_food_1">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_1">220 грамм</span></div>
+                <div class="options options3"><h2 class="main_name_food" id="main_name_food_2">Основное меню</h2><br><p class="price_food" id="price_food_2">350 руб</p><br><span class="about_food" id="about_food_2">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_2">220 грамм</span></div>
+                <div class="options options4"><h2 class="main_name_food" id="main_name_food_3">Основное меню</h2><br><p class="price_food" id="price_food_3">350 руб</p><br><span class="about_food" id="about_food_3">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_3">220 грамм</span></div>
+                <div class="options options5"><h2 class="main_name_food" id="main_name_food_4">Основное меню</h2><br><p class="price_food" id="price_food_4">350 руб</p><br><span class="about_food" id="about_food_4">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин. <br></span><br> <span class="gramm" id="gramm_4">220 грамм</span></div>
+                <div class="options options6"><h2 class="main_name_food" id="main_name_food_5">Основное меню</h2><br><p class="price_food" id="price_food_5">350 руб</p><br><span class="about_food" id="about_food_5">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_5">220 грамм</span></div>
+                <div class="options options7"><h2 class="main_name_food" id="main_name_food_6">Основное меню</h2><br><p class="price_food" id="price_food_6">350 руб</p><br><span class="about_food" id="about_food_6">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_6">220 грамм</span></div>
+                <div class="options options8"><h2 class="main_name_food" id="main_name_food_7">Основное меню</h2><br><p class="price_food" id="price_food_7">350 руб</p><br><span class="about_food" id="about_food_7">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_7">220 грамм</span></div>
+                <div class="options options9"><h2 class="main_name_food" id="main_name_food_8">Основное меню</h2><br><p class="price_food" id="price_food_8">350 руб</p><br><span class="about_food" id="about_food_8">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_8">220 грамм</span></div>
+                <div class="options options10"><h2 class="main_name_food" id="main_name_food_9">Основное меню</h2><br><p class="price_food"id="price_food_9">350 руб</p><br><span class="about_food" id="about_food_9">Греческий салат из свежих овощей со шпинатом, песто из укропа  с мягким сыром фета и землей маслин.<br></span><br> <span class="gramm" id="gramm_9">220 грамм</span></div>
+            </div>
+        </div>
+
+ <!-- Блок с футер --> 
+ <div class="footer col-sm-12 d-flex ">
+    <div class=" footer_addres col-sm-6">
+      <div class="foot_text_full">
+        <span class="footer_addres_txt">г.Киселевск</span><br>
+        <span class="footer_addres_txt">Томская ул., 20А,</span><br>
+        <span class="footer_addres_txt">+7-999-999-99-99</span><br>
+      </div>  
+    </div>
+ 
+    <div class=" footer_logo col-sm-6">
+      <img class="footer_logo_img" src="img/big_ben.png" alt="#">
+    </div>
+ 
+  </div>
+</div>
+ 
+
+ 
+ 
+ 
+ 
+ <!-- Bootstrap JavaScript Libraries -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+ </body>
+ </html>
+ 
+   
