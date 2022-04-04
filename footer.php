@@ -5,7 +5,8 @@
      <div class="foot_text_full">
        <span class="footer_addres_txt">г.Киселевск</span><br>
        <span class="footer_addres_txt">Томская ул., 20А,</span><br>
-       <span class="footer_addres_txt">+7-999-999-99-99</span><br>
+       <span class="footer_addres_txt">+7-951-607-60-74</span><br>
+       <span class="footer_addres_txt">+7-905-901-17-82</span><br>
      </div>  
    </div>
 
