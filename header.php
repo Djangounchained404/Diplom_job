@@ -4,6 +4,7 @@
 <html lang="ru">
   <head>
     <title>Кафе Биг-Бэн</title>
+    <link rel="shortcut icon" href="photo/photo_letter/favicon.ico" type="image/x-icon">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
