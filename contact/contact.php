@@ -3,7 +3,8 @@
             <span class="name_cafe_new">Контакты<br><br></span>
             <span class="addres_cafe">г.Киселевск <br> </span>
             <span class="addres_cafe">Томская ул., 20А,<br></span>
-            <span class="addres_cafe">+7-999-999-99-99<br></span>
+            <span class="addres_cafe">+7-951-607-60-74<br></span>
+            <span class="addres_cafe">+7-905-901-17-82<br></span>
             <span class="work_time_cafe">Время работы: Ежедневно с 10:00 до 21:00<br></span>
             <span class="work_time_cafe">Без обеда и выходных<br></span>
            
