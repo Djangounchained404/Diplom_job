@@ -30,6 +30,9 @@
           <div class="carousel-item hew">
           <img src="photo/photo_letter/5.jpg" class="d-block img_1 " alt="#">
           </div>
+          <div class="carousel-item hew">
+          <img src="photo/photo_letter/main_cafe.jpg" class="d-block img_1 " alt="#">
+          </div>
          
         </div>
         
@@ -52,6 +55,7 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
         
         </div>
       </div>
