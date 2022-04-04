@@ -202,22 +202,13 @@ function dessert() {
     
 }
 
-function bakery() {
+function dead_menu () {
   
-    let arr_main_name_food = ["Булка с маслом","Булка с повидлом","Булка с булкой","Хлеб да соль","Соль да хлеб","Улитка с корицей","Корица с улиткой","Шанежка","Калач тертый","Эчпачмак"];
-    let arr_price_food = [120 , 120 ,120 ,120 ,2550 ,180 ,187 ,190 ,250 ,870 ];
-    var arr_gramm = [125, 225, 325, 425, 525, 625, 725, 825, 925, 825 ]; 
+    let arr_main_name_food = ["Поминальный обед стандарт"];
+    let arr_price_food = [400];
+    var arr_gramm = [500]; 
     let arr_about_food = {
-        about0 : "Булка с маслом",
-        about1 : "Булка с повидлом",
-        about2 : "Булка с булкой",
-        about3 : "Хлеб да соль",
-        about4 : "Соль да хлеб",
-        about5 : "Улитка с корицей",
-        about6 : "Корица с улиткой",
-        about7 : "Шанежка ",
-        about8: "Калач тертый",
-        about9 : "Эчпачмак",
+        about0 : "Комплект поминального обеда, меню уточняйте у менеджера кафе"  
     };
 
     var main= document.getElementById("col_food_option_1").querySelectorAll('div');
@@ -253,7 +244,7 @@ function bakery() {
    
         let count = 0;
         document.getElementById("main_name_food_".concat(index)).innerText =arr_main_name_food[index];
-        document.getElementById("price_food_".concat(index)).innerText =arr_price_food[index] + "руб";
+        document.getElementById("price_food_".concat(index)).innerText =arr_price_food[index] + "руб/чел";
         // document.getElementById("about_food_".concat(index)).innerText = arr_about_food.about1.concat(index);
         Object.keys(arr_about_food).forEach(function(key) {
     if (index==count){

@@ -15,7 +15,7 @@
             <div class="other_line" ><button onclick="pancakes()" class="bt_menu_option_10  bt_bor"><span class="menu_option " tabindex="0">Блины</span></button></div>
             <div class="other_line" ><button onclick=" dessert()" class="bt_menu_option_11  bt_bor"><span class="menu_option" tabindex="0">Десерты</span></button></div>
             <div class="other_line" ><button onclick="drinks()" class="bt_menu_option_12  bt_bor"><span class="menu_option" tabindex="0">Напитки</span></button></div>
-            <div class="other_line" ><button onclick="bakery()" class="bt_menu_option_13  bt_bor"><span class="menu_option" tabindex="0">Выпечка</span></button></div>
+            <div class="other_line" ><button onclick="dead_menu()" class="bt_menu_option_13  bt_bor"><span class="menu_option" tabindex="0">Поминальные обеды</span></button></div>
             <div class="other_line" ><button onclick="dead_menu_vip()" class="bt_menu_option_14 bt_bor"><span class="menu_option" tabindex="0">Поминальные обеды VIP</span></button></div>
         
         </div>
